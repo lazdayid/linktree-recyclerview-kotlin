@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity"
+    android:background="@drawable/background"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -31,6 +32,7 @@
             tools:text="Muhammad Irsyad"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/image"
@@ -42,6 +44,7 @@
             android:layout_marginTop="5dp"
             tools:text="Android Developer"
             android:textSize="14sp"
+            android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/title"
@@ -62,14 +65,15 @@
         <ImageView
             android:id="@+id/logo"
             android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
             android:layout_marginBottom="40dp"
             android:src="@drawable/lzdy"
             android:adjustViewBounds="true"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/list"
+            app:layout_constraintBottom_toBottomOf="parent"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
