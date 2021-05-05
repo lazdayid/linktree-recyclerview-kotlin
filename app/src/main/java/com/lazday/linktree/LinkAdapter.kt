@@ -23,7 +23,7 @@ class LinkAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = ViewHolder (
-        LayoutInflater.from(parent.context).inflate(R.layout.adapter_home, parent, false)
+        LayoutInflater.from(parent.context).inflate(R.layout.adapter_link, parent, false)
     )
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
